@@ -29,7 +29,7 @@ import { GenericInquiry } from './services/GenericInquiry';
  *    await client.login();
  *    
  *    // Call the desired endpoint
- *    const response: AxsiosResponse<any, any> = await client.getFromGenericInquiry("Inquiry Title");
+ *    const response: AxiosResponse<any, any> = await client.getFromGenericInquiry("Inquiry Title");
  * 
  *    // Logout
  *    await client.logout();
